@@ -4200,21 +4200,3 @@
     "provider": "AI"
   }
 ]
-
-// [
-//   '{{repeat(300)}}',
-//   {
-//     index: '{{index()}}',
-//     guid: '{{guid()}}',
-//     flightNumber: '{{floating(166, 385, 3, "0,0")}}',
-//     ticketPrice: '{{floating(2000, 6000, 2, "0,0")}}',
-//     arrivalTime: '',
-//     refundable: '{{bool()}}',
-//     duration: '{{integer(2, 5)}}',
-//     picture: 'http://placehold.it/32x32',
-//     departureTime: '{{date(new Date(2015, 0, 1), new Date(), "HH:mm")}}',
-//     arrivalCity: "{{random('Delhi', 'Mumbai', 'Chennai', 'Pune', 'Chandigarh', 'Hyderabad', 'Bangalore', 'Jaipur', 'Indore')}}",
-//     departureCity: "{{random('Delhi', 'Mumbai', 'Chennai', 'Pune', 'Chandigarh', 'Hyderabad', 'Bangalore', 'Jaipur', 'Indore')}}",
-//     provider: "{{random('GoAir', 'Indigo', 'Jet', 'AI', 'SpiceJet', 'Air Asia' )}}",
-//   }
-// ]
